@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Avengers</string>
+    <string name="name">Tony Stark</string>
+    <string name="email">tonystark@starkindustries.in</string>
+    <string name="phone">+91 7736475692</string>
+    <string name="tony_stark">Tony Stark</string>
+    <string name="tonystark_starkindustries_in">tonystark@starkindustries.in</string>
+    <string name="more_information">More Information</string>
+    <string name="exit">Exit</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+</resources>

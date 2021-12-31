@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="@string/name"
+        android:textColor="#0d47a1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tonyImageID"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/nameID"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/tony_stark_new" />
+
+
+    <TextView
+        android:id="@+id/emailidID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tonyImageID"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="@string/email"
+        android:textColor="#fb6f00"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/phoneID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailidID"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="@string/phone"
+        android:textColor="#ff5966"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/enterNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneID"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:hint="Enter your name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/enterPasswordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterNameID"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#009688"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
